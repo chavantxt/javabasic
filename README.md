@@ -11,5 +11,5 @@
 3. Allows Duplicates and Null values.
 
 ## C} Vector 
-1. Dynamis array like ArrayList
-2. It is synchronized.
+1. Dynamis array like ArrayList.
+2. It is synchronized - Use in a Multi-threaded environment.
