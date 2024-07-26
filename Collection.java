@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.LinkedList;
 
 public class Collection {
 
@@ -34,8 +35,35 @@ public class Collection {
       System.out.println("Array Size : "+cars.size());
 
     }
+
+    public static void linkedListFunction(){
+
+      LinkedList<String> list = new LinkedList<String>();
+
+        // Adding elements to the LinkedList using add() method
+        list.add("One");
+        list.add("Two");
+        list.add("Three");
+        list.add("Four");
+        list.add("Five");
+
+        // Printing the LinkedList
+        System.out.println(list);
+      
+        list.remove("B");
+        list.remove(3);
+        list.removeFirst();
+        list.removeLast();
+
+        System.out.println(list);
+
+        list.size();
+        list.getFirst();
+        list.getLast();
+    }
     public static void main(String[] args) {
-        arrayListFunction();
+       // arrayListFunction();
+        linkedListFunction();
       
     }
   }
