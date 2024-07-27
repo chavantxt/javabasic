@@ -52,3 +52,24 @@
 2. Like HashSet, TreeSet also contains unique elements.
 3. However, the access and retrieval time of TreeSet is quite fast.
 4. The elements in TreeSet are stored in ascending order.
+
+## Map
+## A} HashMap
+1. It stores the data in (Key, Value) pairs.
+2. To access a value one must know its key.
+3. This class uses a technique called Hashing.
+4. Null Keys and Values: Allows one null key and multiple null values. However, the handling of null can vary in different implementations or languages.
+5. Thread Safety: HashMap is not synchronized. If you need a thread-safe implementation, consider ConcurrentHashMap or use Collections.
+   
+## B} LinkedHashMap
+1. A LinkedHashMap contains values based on the key. It implements the Map interface and extends the HashMap class.
+2. It contains unique elements.
+3. It may have one null key and multiple null values.
+4. It is non-synchronized.
+5. It is the same as HashMap with an additional feature that maintains insertion order. For example, when we run the code with a HashMap, we get a different order of elements.
+
+## C} TreeMap
+1. Sorted Order: Entries in a TreeMap are sorted according to the natural ordering of its keys or by a comparator provided at map creation. This means that the keys are always kept in sorted order.
+2. No Duplicate Keys: Like other map implementations, TreeMap does not allow duplicate keys. If you try to insert a key that already exists in the map, it will overwrite the existing value.
+3. Null Keys: TreeMap does not allow null keys. Attempting to add a null key will result in a NullPointerException. However, null values are allowed.
+
