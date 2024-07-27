@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.Stack;
 
 public class Collection {
 
@@ -61,9 +62,35 @@ public class Collection {
         list.getFirst();
         list.getLast();
     }
+
+    public static void stackFunction(){
+       Stack<Integer> stack = new Stack<>();
+
+        // Push elements onto the stack
+        stack.push(1);
+        stack.push(2);
+        stack.push(3);
+        stack.push(4);
+
+        Integer pos = (Integer) stack.search(3);
+
+        if(pos == -1)
+            System.out.println("Element not found");
+        else
+            System.out.println("Element is found at position: " + pos);
+
+        Integer element = (Integer) stack.peek();
+        System.out.println("Element on stack top: " + element);
+
+        // Pop elements from the stack
+        while(!stack.isEmpty()) {
+            System.out.println(stack.pop());
+        }
+    }
     public static void main(String[] args) {
        // arrayListFunction();
-        linkedListFunction();
+       // linkedListFunction();
+        stackFunction();
       
     }
   }
