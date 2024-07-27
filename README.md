@@ -34,3 +34,21 @@
 5. Allows duplicate Elements.
 
 ## Set
+## A} HashSet
+1. Hashing: Uses a hash table for storage. Hashing allows for average constant-time complexity.
+2. O(1) for basic operations such as add, remove, and contains, assuming a good hash function and proper load factor.
+3. No Duplicates: Does not allow duplicate elements. If you attempt to add an existing element, the set will remain unchanged.
+4. Unordered: Does not maintain the order of elements. The order of elements in a HashSet is not guaranteed and can change when elements are added or removed.
+5. Null Elements: Allows a single null element, which can vary based on implementation.
+
+## B} LinkedHashSet
+1. The LinkedHashSet class represents the LinkedList implementation of the Set Interface.
+2. It extends the HashSet class and implements the Set interface.
+3. Like HashSet, It also contains unique elements.
+4. It maintains the insertion order and permits null elements.
+
+## C} TreeSet
+1. Java TreeSet class implements the Set interface that uses a tree for storage.
+2. Like HashSet, TreeSet also contains unique elements.
+3. However, the access and retrieval time of TreeSet is quite fast.
+4. The elements in TreeSet are stored in ascending order.
