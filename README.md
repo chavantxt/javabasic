@@ -22,5 +22,6 @@
 ## A}PriorityQueue
 1. Follows First In, First Out (FIFO) principle.
 2. The order of elements as priority.
-3. Can Implement Min/Max Heap.
-4. Balanced Binary Search Tree, Sorted List.
+3. Can Implement Min/Max Heap, Balanced Binary Search Tree, and Sorted List.
+4. PriorityQueue doesn't allow null values to be stored in the queue.
+5. Allows duplicate Elements.
