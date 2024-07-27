@@ -13,3 +13,7 @@
 ## C} Vector 
 1. Dynamis array like ArrayList.
 2. It is synchronized - Use in a Multi-threaded environment.
+
+## D} Stack
+1. Follows Last In, First Out (LIFO) principle.
+2. It can be implemented using Arrays or Linked List.
