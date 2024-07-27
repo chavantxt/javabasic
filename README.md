@@ -25,3 +25,12 @@
 3. Can Implement Min/Max Heap, Balanced Binary Search Tree, and Sorted List.
 4. PriorityQueue doesn't allow null values to be stored in the queue.
 5. Allows duplicate Elements.
+
+## B} Dequeue 
+1. Double-ended queue (deque) that is implemented using an array.
+2. Efficiency, Dynamic Array, Double-Ended.
+3. Sliding Window Problems, Task Scheduling, Palindrome Checking.
+4. The ArrayDeque class does not allow null values.
+5. Allows duplicate Elements.
+
+## C} 
